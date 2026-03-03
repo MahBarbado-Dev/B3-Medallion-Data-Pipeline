@@ -16,7 +16,8 @@ def ler_cotahist(caminho, nrows=None):
         colspecs=list(layout.values()),
         names=list(layout.keys()),
         dtype={"tipo_registro": str},
-        nrows=nrows
+        nrows=nrows,
+        encoding='latin-1'
     )
 
     return df
