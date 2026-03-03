@@ -1,0 +1,9 @@
+# Pastas de dados
+dados_brutos/
+bronze/
+silver/
+gold/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
